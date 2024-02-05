@@ -1,4 +1,4 @@
-const WEBHOOK_URL = PropertiesService.getScriptProperties("WEBHOOK_URL")
+const WEBHOOK_URL = PropertiesService.getScriptProperties().getProperty("WEBHOOK_URL")
 
 
 function myFunction() {
