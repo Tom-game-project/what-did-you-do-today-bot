@@ -4,6 +4,7 @@ const WEBHOOK_URL = PropertiesService.getScriptProperties().getProperty("WEBHOOK
 function myFunction() {
    let payload =
   {
+    "avatar_url":"https://lh3.googleusercontent.com/d/1nOOSH_vTrLR8_kJl1TM_lc_3CZpGZCd4",
     "content": "今日何した？"
   };
   const replyHeaders = {
