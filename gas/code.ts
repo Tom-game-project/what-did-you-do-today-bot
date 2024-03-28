@@ -1,4 +1,4 @@
-const WEBHOOK_URL = PropertiesService.getScriptProperties().getProperty("WEBHOOK_URL")
+const WEBHOOK_URL = PropertiesService.getScriptProperties().getProperty("WEBHOOK_URL")!
 
 
 function myFunction() {
@@ -31,8 +31,7 @@ function myFunction() {
   const replyHeaders = {
     'Content-Type': 'application/json'
   };
-  let options =
-  {
+  let options:GoogleAppsScript.URL_Fetch.URLFetchRequestOptions = {
     "method": "post",
     'headers': replyHeaders,
     "payload": JSON.stringify(payload)
