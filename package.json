@@ -1,0 +1,16 @@
+{
+  "name": "what-did-you-do-today-bot",
+  "version": "1.0.0",
+  "description": "simple discord webhook bot",
+  "main": "index.js",
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.82"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "",
+    "push": ""
+  },
+  "author": "",
+  "license": "ISC"
+}
